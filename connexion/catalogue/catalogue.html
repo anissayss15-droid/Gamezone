@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Catalogue - GAMEZONE</title>
+    <link rel="stylesheet" href="catalogue.css">
+</head>
+<body>
+
+    <h1>GAMEZONE</h1>
+    <h2>Catalogue des jeux vidéo</h2>
+
+    <input type="text" id="recherche" placeholder="Rechercher un jeu">
+    <button onclick="rechercher()">Rechercher</button>
+
+    <div class="jeux">
+        <div class="jeu">
+            <h3>Minecraft</h3>
+            <p>Jeu de construction et d'aventure.</p>
+            <p>PEGI 7</p>
+        </div>
+
+        <div class="jeu">
+            <h3>Rocket League</h3>
+            <p>Jeu de football avec des voitures.</p>
+            <p>PEGI 3</p>
+        </div>
+
+        <div class="jeu">
+            <h3>Fortnite</h3>
+            <p>Jeu d'action et de survie.</p>
+            <p>PEGI 12</p>
+        </div>
+    </div>
+
+    <p id="resultat"></p>
+
+    <script src="catalogue.js"></script>
+</body>
+</html>
