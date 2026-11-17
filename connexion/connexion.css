@@ -75,11 +75,16 @@
   margin-right: 3px;
 }
 
-.remember-forgot a {
-   color: #fff;
-   text-decoration: none;
-   margin-left: auto;
-   white-space: nowrap;
+.remember-forgot a:link,
+.remember-forgot a:visited,
+.remember-forgot a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 .remember-forgot a:hover {
@@ -114,4 +119,8 @@
 
 .registrer-link p a :hover {
    text-decoration: underline;
+}
+
+.remember-forgot a {
+    color: white !important;
 }
