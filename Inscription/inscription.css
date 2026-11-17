@@ -18,6 +18,7 @@
  .wrapper {
    width: 420px;
    background: rgba(67, 173, 248, 0.788);
+   /* nouvelle couleur */
    color:#fff;  
    border-radius: 10px;
    padding: 30px 40px;
