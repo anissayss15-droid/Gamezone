@@ -5,3 +5,7 @@ function accueil() {
 function connexion() {
     window.location.href = "../../connexion/connexion.html";
 }
+
+function inscription() {
+    window.location.href = "../../inscription/inscription.html";
+}
