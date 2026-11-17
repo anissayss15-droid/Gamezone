@@ -17,18 +17,15 @@
 
  .wrapper {
    width: 420px;
-<<<<<<< Updated upstream
-   background: rgba(107, 23, 175, 0.788);
-=======
-   background: rgb(171, 103, 226);
->>>>>>> Stashed changes
-   color:#fff;
+   background: rgba(67, 173, 248, 0.788);
+   color:#fff;  
    border-radius: 10px;
    padding: 30px 40px;
  }
 
+
  .wrapper h1 {
-   font-size: 36px;
+
    text-align: center;
  }
 
