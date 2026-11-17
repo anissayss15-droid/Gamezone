@@ -17,7 +17,7 @@
 
  .wrapper {
    width: 420px;
-   background: rgba(114, 12, 80, 0.637);
+   background: rgba(101, 68, 247, 0.788);
    color:#fff;
    border-radius: 10px;
    padding: 30px 40px;
@@ -42,7 +42,7 @@
   background: transparent ;
   border: none;
   outline: none;
-  border: 2px solid rgba(255, 255, 255, .2);
+  border: 2px solid rgb(250, 239, 239);
   border-radius: 40px;
   font-size: 16px;
    color:#fff;
@@ -95,7 +95,7 @@ se souvenir de moi a {
   box-shadow: 0 0 10px rgba(0, 0, 0, 1);
   cursor: pointer;
   font-size: 16px;
-  color:#333;
+  color:#fff8f831;
   font-weight: 600;
 }
 
