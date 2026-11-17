@@ -12,12 +12,12 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-   background: url("pastel connexion image.jpg") center center / cover no-repeat;
+   background: url("Connexion et inscription.avif") center center / cover no-repeat;
  }
 
  .wrapper {
    width: 420px;
-   background: rgb(183, 117, 236);
+   background: rgba(114, 12, 80, 0.637);
    color:#fff;
    border-radius: 10px;
    padding: 30px 40px;
