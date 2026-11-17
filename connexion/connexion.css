@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-   background: url(vecteur-fond.jpg);
+   background: url("pastel connexion image.jpg") center center / cover no-repeat;
  }
 
  .wrapper {
@@ -99,19 +99,18 @@ se souvenir de moi a {
   font-weight: 600;
 }
 
-.wrapper .s'inscrire {
+.wrapper .inscrire {
    font-size: 14.5px;
    text-align: center;
    margin: 20px 0 15px;
 }
 
-.s'inscrire p a {
+.inscrire p a {
    color: #fff;
    text-decoration: none;
    font-weight: 600;
 }
 
-.s'inscrire p a:hover {
+.inscrire p a:hover {
    text-decoration: underline;
 }
-
