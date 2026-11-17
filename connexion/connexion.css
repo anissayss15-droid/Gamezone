@@ -18,7 +18,7 @@
  .wrapper {
    width: 420px;
    background: rgba(67, 173, 248, 0.788);
-   color:#fff;  
+   color:#fff;
    border-radius: 10px;
    padding: 30px 40px;
  }
@@ -42,7 +42,7 @@
   background: transparent ;
   border: none;
   outline: none;
-  border: 2px solid rgb(250, 239, 239);
+  border: 2px solid rgba(140, 9, 228, 0.2);
   border-radius: 40px;
   font-size: 16px;
    color:#fff;
@@ -92,10 +92,10 @@ se souvenir de moi a {
   border: none;
   outline: none;
   border-radius: 40px;
-  box-shadow: 0 0 10px #45ACF7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
   cursor: pointer;
   font-size: 16px;
-  color:#fff8f831;
+  color:#333;
   font-weight: 600;
 }
 
@@ -113,9 +113,4 @@ se souvenir de moi a {
 
 .inscrire p a:hover {
    text-decoration: underline;
-}
-
-mot de passe oublier? a {
-  color: #fff;
-  text-decoration: none;
 }
