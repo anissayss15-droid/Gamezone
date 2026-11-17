@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(https://www.canva.com/fr_fr/photos/s/gaming/);
+    url(vecteur-fond.jpg);
  }
 
  .wrapper {
@@ -75,20 +75,14 @@
   margin-right: 3px;
 }
 
-.remember-forgot a:link,
-.remember-forgot a:visited,
-.remember-forgot a:active {
-    color: #ffffff;
-    text-decoration: none;
+
+.remember-forgot a {
+  color: #fff;
+  text-decoration: none;
 }
 
-.remember-forgot a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-}
-
-.remember-forgot a:hover {
-   text-decoration: underline;
+remember-forgot a:hover {
+  text-decoration: underline;
 }
 
 .wrapper .btn {
@@ -117,10 +111,7 @@
    font-weight: 600;
 }
 
-.registrer-link p a :hover {
+.registrer-link p a:hover {
    text-decoration: underline;
 }
 
-.remember-forgot a {
-    color: white !important;
-}
