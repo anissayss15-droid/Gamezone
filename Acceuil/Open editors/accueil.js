@@ -9,3 +9,7 @@ function connexion() {
 function inscription() {
     window.location.href = "../../inscription/inscription.html";
 }
+
+function decouvrir() {
+    window.location.href = "../../catalogue/catalogue.html";
+}

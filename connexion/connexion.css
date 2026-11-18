@@ -119,3 +119,129 @@ mot de passe oublier? a {
   color: #fff;
   text-decoration: none;
 }
+
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.navbar nav a:hover {
+    color: #b57aff;
+}
+
+@media (max-width: 650px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .navbar nav {
+        text-align: center;
+    }
+
+    .navbar nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+}
+
+
+.navbar {
+    width: 90%;
+    padding: 25px 0;
+    left: 5%;
+}
+
+.navbar h2 {
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    color: #631b63;
+}
+
+.navbar nav a {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-left: 25px;
+    color: white;
+}
+
+.navbar nav a:hover {
+    color: #9e0578;
+}
+
+.wrapper .btn {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#message {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.wrapper {
+    width: 420px;
+    max-width: 90%;
+    background: rgba(67, 173, 248, 0.788);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: white;
+    color: #333;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}
+
+.register-link a {
+    color: white;
+    font-weight: bold;
+}
+
+#message {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
