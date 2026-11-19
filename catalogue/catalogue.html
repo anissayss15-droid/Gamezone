@@ -1,40 +1,79 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalogue - GAMEZONE</title>
     <link rel="stylesheet" href="catalogue.css">
 </head>
 <body>
 
-    <h1>GAMEZONE</h1>
-    <h2>Catalogue des jeux vidéo</h2>
+     <header class="navbar">
+        <h2>GAMEZONE</h2>
 
-    <input type="text" id="recherche" placeholder="Rechercher un jeu">
-    <button onclick="rechercher()">Rechercher</button>
+        <nav>
+            <a href="../Acceuil/Open editors/accueil.html">ACCUEIL</a>
+            <a href="../catalogue/catalogue.html">CATALOGUE</a>
+            <a href="../Inscription/inscription.html">INSCRIPTION</a>
+            <a href="../connexion/connexion.html">CONNEXION</a>
+        </nav>
+    </header>
 
-    <div class="jeux">
-        <div class="jeu">
-            <h3>Minecraft</h3>
-            <p>Jeu de construction et d'aventure.</p>
-            <p>PEGI 7</p>
+
+    <main>
+
+        <h2>Catalogue des jeux vidéo</h2>
+
+        <div class="recherche">
+            <input type="text" id="recherche" placeholder="Rechercher un jeu">
+            <button onclick="rechercher()">Rechercher</button>
         </div>
 
-        <div class="jeu">
-            <h3>Rocket League</h3>
-            <p>Jeu de football avec des voitures.</p>
-            <p>PEGI 3</p>
+        <div class="jeux">
+
+            <div class="jeu">
+                <img src="mine.avif" class="jaquette" alt="Minecraft">
+                <h3>Minecraft</h3>
+                <p>Jeu de construction et d'aventure.</p>
+                <span>PEGI 7</span>
+            </div>
+
+            <div class="jeu">
+                <img src="Rocket league.jpg" class="jaquette" alt="Rocket League">
+                <h3>Rocket League</h3>
+                <p>Jeu de football avec des voitures.</p>
+                <span>PEGI 3</span>
+            </div>
+
+            <div class="jeu">
+                <div class="jaquette fortnite">FORTNITE</div>
+                <h3>Fortnite</h3>
+                <p>Jeu d'action et de survie.</p>
+                <span>PEGI 12</span>
+            </div>
+
+            <div class="jeu">
+                <div class="jaquette gta">GTA VI</div>
+                <h3>GTA VI</h3>
+                <p>Jeu vidéo d'action-aventure en monde ouvert.</p>
+                <span>PEGI 18</span>
+            </div>
+
+            <div class="jeu">
+                <div class="jaquette roblox">ROBLOX</div>
+                <h3>Roblox</h3>
+                <p>Une plateforme qui rassemble des millions de jeux vidéo.</p>
+                <span>PEGI 7</span>
+            </div>
+
         </div>
 
-        <div class="jeu">
-            <h3>Fortnite</h3>
-            <p>Jeu d'action et de survie.</p>
-            <p>PEGI 12</p>
-        </div>
-    </div>
+        <p id="resultat"></p>
 
-    <p id="resultat"></p>
+    </main>
 
     <script src="catalogue.js"></script>
+
 </body>
 </html>

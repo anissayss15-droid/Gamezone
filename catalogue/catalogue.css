@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+    background: #242424;
+    color: white;
+    min-height: 100vh;
+}
+
+
+
+header {
+    background: #111;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+header h1 {
+    font-size: 28px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #ff5a00;
+}
+
+
+
+main {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+
+
+.recherche {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
+.recherche input {
+    width: 350px;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.recherche button {
+    padding: 13px 22px;
+    background: #ff5a00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.recherche button:hover {
+    background: #e64d00;
+}
+
+
+
+.jeux {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    justify-content: center;
+    gap: 25px;
+}
+
+
+
+.jeu {
+    background: #303030;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.jeu:hover {
+    transform: translateY(-5px);
+    background: #383838;
+}
+
+.jaquette {
+    width: 100%;
+    height: 190px;
+    object-fit: contain;
+    display: block;
+    background: #303030;
+}
+
+
+
+.jeu h3 {
+    font-size: 18px;
+    margin: 15px 12px 8px;
+}
+
+.jeu p {
+    color: #bbb;
+    font-size: 14px;
+    margin: 0 12px 12px;
+}
+
+.jeu span {
+    display: inline-block;
+    background: #555;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 12px 15px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+
+.jaquette {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+    display: block;
+    background: #242424;
+}
+
