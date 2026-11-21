@@ -1,75 +1,86 @@
 
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalogue - GAMEZONE</title>
     <link rel="stylesheet" href="catalogue.css">
 </head>
+
 <body>
 
-     <header class="navbar">
+    <header class="navbar">
         <h2>GAMEZONE</h2>
 
         <nav>
             <a href="../Acceuil/Open editors/accueil.html">ACCUEIL</a>
-            <a href="../catalogue/catalogue.html">CATALOGUE</a>
+            <a href="catalogue.html">CATALOGUE</a>
             <a href="../Inscription/inscription.html">INSCRIPTION</a>
             <a href="../connexion/connexion.html">CONNEXION</a>
         </nav>
     </header>
 
-
     <main>
 
-        <h2>Catalogue des jeux vidéo</h2>
-
-        <div class="recherche">
-            <input type="text" id="recherche" placeholder="Rechercher un jeu">
-            <button onclick="rechercher()">Rechercher</button>
-        </div>
+     <h1>Catalogue des jeux vidéo</h1>
+     
+        <p class="intro">
+            Découvre nos jeux et clique sur une carte
+            pour obtenir des conseils !
+        </p>
 
         <div class="jeux">
 
-            <div class="jeu">
-                <img src="mine.avif" class="jaquette" alt="Minecraft">
+            <div class="jeu" onclick="details('minecraft')">
+                <img src="mine.avif" alt="Minecraft">
                 <h3>Minecraft</h3>
-                <p>Jeu de construction et d'aventure.</p>
+                <p>Construction et aventure.</p>
                 <span>PEGI 7</span>
+                <button>Voir les détails</button>
             </div>
 
-            <div class="jeu">
-                <img src="Rocket league.jpg" class="jaquette" alt="Rocket League">
+            <div class="jeu" onclick="details('rocket')">
+                <img src="Rocket league.jpg" alt="Rocket League">
                 <h3>Rocket League</h3>
-                <p>Jeu de football avec des voitures.</p>
+                <p>Football avec des voitures.</p>
                 <span>PEGI 3</span>
+                <button>Voir les détails</button>
             </div>
 
-            <div class="jeu">
-                <img src="Fortnite.jpg" class="jaquette" alt="Fortnite">
+            <div class="jeu" onclick="details('fortnite')">
+                <img src="Fortnite images.jfif" alt="Fortnite">
                 <h3>Fortnite</h3>
-                <p>Jeu d'action et de survie.</p>
+                <p>Action et survie.</p>
                 <span>PEGI 12</span>
+                <button>Voir les détails</button>
             </div>
 
-            <div class="jeu">
-                <img src="GTA VI.jpg" class="jaquette" alt="GTA VI">
+            <div class="jeu" onclick="details('gta')">
+                <img src="Gta 6 image.avif" alt="GTA VI">
                 <h3>GTA VI</h3>
-                <p>Jeu vidéo d'action-aventure en monde ouvert.</p>
+                <p>Action et aventure.</p>
                 <span>PEGI 18</span>
+                <button>Voir les détails</button>
             </div>
 
-            <div class="jeu">
-                <img src="Roblox.jpg" class="jaquette" alt="Roblox">
+            <div class="jeu" onclick="details('roblox')">
+                <img src="roblox images.jfif" alt="Roblox">
                 <h3>Roblox</h3>
-                <p>Une plateforme qui rassemble des millions de jeux vidéo.</p>
+                <p>Des millions de jeux à découvrir.</p>
                 <span>PEGI 7</span>
+                <button>Voir les détails</button>
             </div>
 
         </div>
 
-        <p id="resultat"></p>
+        <section id="fiche">
+            <h2 id="titreFiche"></h2>
+            <p id="texteFiche"></p>
+            <p id="conseilFiche"></p>
+            <button onclick="fermer()">Fermer</button>
+        </section>
 
     </main>
 

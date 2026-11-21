@@ -1,130 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800;900&display=swap');
 
- * {
-   margin: 0;
-   padding:  0;
-   box-sizing: border-box;
-   font-family: "Poppins", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* REGLAGES GENERAUX */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
- body {
+/* FOND DE LA PAGE */
+
+body {
+    min-height: 100vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-   background: url("Connexion et inscription.avif") center center / cover no-repeat;
- }
 
- .wrapper {
-   width: 420px;
-   background: rgba(67, 173, 248, 0.788);
-   /* nouvelle */
-   color:#fff;  
-   border-radius: 10px;
-   padding: 30px 40px;
- }
+    background-color: #100827;
+    background-image: url("gaming.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
-
- .wrapper h1 {
-
-   text-align: center;
- }
-
- .wrapper .input-box {
-   position:relative;
-   width: 100%;
-   height: 50px;
-   background:transparent;
-   margin: 30px 0;
+    padding: 120px 20px 40px;
 }
 
-.input-box input {
-  width: 100%;
-  height: 100%;
-  background: transparent ;
-  border: none;
-  outline: none;
-  border: 2px solid rgba(247, 247, 247, 0.884);
-  border-radius: 40px;
-  font-size: 16px;
-   color:#fff;
-   padding: 20px 45px 20px 20px;
-}
-
-.input-box input::placeholder {
-   color: #fff;  
-}
-
-.input-box i {
-   position: absolute;
-   right: 20px;
-   top: 50%;
-   transform: translateY(-50%);
-   font-size: 20px;
-   color:#ffffff;
-}
-
-.wrapper .se souvenir de moi {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   font-size: 14.5px;
-   margin: -15px 0 15px;
-}
-
-.se souvenir de moi label input {
-  accent-color:#fff;
-  margin-right: 3px;
-}
-
-
-se souvenir de moi a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.se souvenir de moi a:hover {
-  text-decoration: underline;
-}
-
-.wrapper .btn {
-  width: 100%;
-  height: 45px;
-  background: #fff;
-  border: none;
-  outline: none;
-  border-radius: 40px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-  cursor: pointer;
-  font-size: 16px;
-  color:#333;
-  font-weight: 600;
-}
-
-.wrapper .inscrire {
-   font-size: 14.5px;
-   text-align: center;
-   margin: 20px 0 15px;
-}
-
-.inscrire p a {
-   color: #fff;
-   text-decoration: none;
-   font-weight: 600;
-}
-
-.inscrire p a:hover {
-   text-decoration: underline;
-}
-
-
+/* MENU GAMEZONE */
 
 .navbar {
     position: absolute;
     top: 0;
-    left: 5%;
-    width: 90%;
-    padding: 25px 0;
+    left: 0;
+    width: 100%;
+
+    padding: 25px 5%;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -133,25 +47,144 @@ se souvenir de moi a {
 .navbar h2 {
     font-family: Arial, sans-serif;
     font-size: 35px;
-    color: #631b63;
+    color: #d69aff;
 }
 
 .navbar nav a {
     font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: white;
+    color: #d69aff;
     text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
     margin-left: 25px;
 }
 
 .navbar nav a:hover {
-    color: #9e0578;
+    color: white;
 }
 
+/* FORMULAIRE BLEU */
+
+.wrapper {
+    width: 420px;
+    max-width: 100%;
+
+    background: rgba(67, 173, 248, 0.85);
+    color: white;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+
+    padding: 35px 40px;
+
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.35);
+}
+
+/* TITRE INSCRIPTION */
+
+.wrapper h1 {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* CHAMPS DU FORMULAIRE */
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 18px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+
+    background: transparent;
+
+    border: 2px solid white;
+    border-radius: 40px;
+    outline: none;
+
+    font-size: 16px;
+    color: white;
+
+    padding: 12px 45px 12px 20px;
+}
+
+.input-box input::placeholder {
+    color: white;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    font-size: 20px;
+    color: white;
+}
+
+/* BOUTON S'INSCRIRE */
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+
+    background: white;
+    color: #333;
+
+    border: none;
+    border-radius: 40px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.wrapper .btn:hover {
+    background: #e9e9ff;
+}
+
+/* LIENS SOUS LE FORMULAIRE */
+
+.inscrire,
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+}
+
+.inscrire a,
+.register-link a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* MESSAGE JAVASCRIPT */
+
+#message {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* VERSION TELEPHONE */
+
 @media (max-width: 650px) {
+
     .navbar {
         flex-direction: column;
-        gap: 10px;
+        gap: 12px;
+        padding: 15px;
     }
 
     .navbar nav {
@@ -161,25 +194,14 @@ se souvenir de moi a {
     .navbar nav a {
         display: inline-block;
         margin: 5px;
+        font-size: 13px;
     }
-}
 
+    .wrapper {
+        padding: 30px 25px;
+    }
 
-.wrapper {
-    width: 420px;
-    max-width: 90%;
-}
-
-.wrapper .input-box {
-    margin: 15px 0;
-}
-
-.wrapper h1 {
-    margin-bottom: 20px;
-}
-
-#message {
-    text-align: center;
-    margin-top: 15px;
-    color: white;
+    .wrapper h1 {
+        font-size: 30px;
+    }
 }
